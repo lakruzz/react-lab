@@ -1,0 +1,13 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Basic Node.js runtime env",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+"remoteUser": "node",
+"features": {
+	"ghcr.io/devcontainers/features/common-utils:2": {},
+	"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+	"ghcr.io/devcontainers/features/github-cli:1": {}
+}
+}
